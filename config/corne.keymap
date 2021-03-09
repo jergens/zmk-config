@@ -30,14 +30,14 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // | ESC   | HOME | PGUP | UP  | PGDN  | LBKT |-  -| RBKT |  7    |  8  |  9  |  +/=  | DEL |
-// | SHFT  | END  | LFT  | DWN | RGT   | LPAR |-  -| RPAR |  4    |  5  |  6  |  -/_  | *   |
+// | SHFT  | END  | LFT  | DWN | RGT   | LPAR |-  -| RPAR |  4    |  5  |  6  |  -/_  | GRAVE   |
 // | BTCLR | BT1  | BT2  | BT3  | BT4  | LBRC |-  -| RBRC |  1    |  2  |  3  |  .    | /?  |
-//                       | ALT | SPC   |      |-  -| ENT  | GRAVE |  0  |
+//                       | ALT | SPC   |      |-  -|      | ENT |  0  |
                         bindings = <
-   &kp ESC      &kp HOME     &kp PG_UP    &kp UP       &kp PG_DN    &kp LBKT        &kp RBKT &kp N7    &kp N8 &kp N9  &kp EQUAL &kp DEL
-   &kp LSHFT    &kp END      &kp LEFT     &kp DOWN     &kp RIGHT    &kp LPAR        &kp RPAR &kp N4    &kp N5 &kp N6  &kp MINUS &kp STAR
-   &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp LBRC        &kp RBRC &kp N1    &kp N2 &kp N3  &kp DOT   &kp FSLH
-                                          &kp LALT     &kp SPACE    &trans          &kp RET  &kp GRAVE &kp N0
+   &kp ESC      &kp HOME     &kp PG_UP    &kp UP       &kp PG_DN    &kp LBKT        &kp RBKT &kp N7   &kp N8 &kp N9  &kp EQUAL &kp DEL
+   &kp LSHFT    &kp END      &kp LEFT     &kp DOWN     &kp RIGHT    &kp LPAR        &kp RPAR &kp N4   &kp N5 &kp N6  &kp MINUS &kp GRAVE
+   &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp LBRC        &kp RBRC &kp N1   &kp N2 &kp N3  &kp DOT   &kp FSLH
+                                          &kp LALT     &kp SPACE    &trans          &trans   &kp RET  &kp N0
                         >;
                 };
 
@@ -46,12 +46,12 @@
 // | TAB  |  X   |  Q  |  W   |  E  |  R  |-  -| GRAVE | HOME  | UP  | PGUP | PAUSE_BREAK | VOL+ |
 // | CTRL | SHFT |  A  |  S   |  D  |  F  |-  -| END   | LFT   | DWN | RGT  | PGDN        | VOL- |
 // | Z    |  1   |  2  |  3   |  4  |  5  |-  -| F5    |  F1   | F2  | F12  | F9          | MUTE |
-//                     | LALT | SPC |  V  |-  -|       | ENTER | ESC |
+//                     | LALT | SPC |     |-  -|       | ENTER | ESC |
                         bindings = <
    &kp TAB   &kp X     &kp Q  &kp W    &kp E     &kp R       &kp GRAVE &kp HOME  &kp UP   &kp PG_UP &kp PAUSE_BREAK &kp K_VOL_UP
    &kp LCTRL &kp LSHFT &kp A  &kp S    &kp D     &kp F       &kp END   &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN       &kp K_VOL_DN
    &kp Z     &kp N1    &kp N2 &kp N3   &kp N4    &kp N5      &kp F5    &kp F1    &kp F2   &kp F12   &kp F9          &kp K_MUTE
-                              &kp LALT &kp SPACE &kp V       &trans    &kp RET   &kp ESC
+                              &kp LALT &kp SPACE &trans      &trans    &kp RET   &kp ESC
                         >;
                 };
         };
