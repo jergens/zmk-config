@@ -46,10 +46,10 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// | TAB  |  X   |  Q  |  W   |  E  |  R  |-  -| GRAVE | HOME  | UP   | PGUP | PAUSE_BREAK |      |
-// | CTRL | SHFT |  A  |  S   |  D  |  F  |-  -| END   | LFT   | DWN  | RGT  | PGDN        | VOL+ |
-// | Z    |  1   |  2  |  3   |  4  |  5  |-  -| F5    |  F1   | F2   | F12  | F9          | VOL- |
-//                     | LALT | SPC |  V  |-  -| ENT   | ESC   | MUTE |
+// | TAB  |  X   |  Q  |  W  |  E  |  R  |-  -| GRAVE | HOME  | UP   | PGUP | PAUSE_BREAK |      |
+// | CTRL | SHFT |  A  |  S  |  D  |  F  |-  -| END   | LFT   | DWN  | RGT  | PGDN        | VOL+ |
+// | Z    |  1   |  2  |  3  |  4  |  5  |-  -| F5    |  F1   | F2   | F12  | F9          | VOL- |
+//                     | ALT | SPC |  V  |-  -| ENT   | ESC   | MUTE |
                         bindings = <
    &kp TAB   &kp X     &kp Q  &kp W    &kp E     &kp R       &kp GRAVE &kp HOME  &kp UP     &kp PG_UP &kp PAUSE_BREAK &trans
    &kp LCTRL &kp LSHFT &kp A  &kp S    &kp D     &kp F       &kp END   &kp LEFT  &kp DOWN   &kp RIGHT &kp PG_DN       &kp K_VOL_UP
