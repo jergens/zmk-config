@@ -12,7 +12,7 @@
 #define LWR 1
 #define RSE 2
 
-{
+/ {
         keymap {
                 compatible = "zmk,keymap";
 
