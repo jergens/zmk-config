@@ -8,9 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define DEF 0
-#define LWR 1
-#define RSE 2
 
 / {
         keymap {
@@ -26,7 +23,7 @@
    &kp TAB    &kp Q  &kp W  &kp E    &kp R     &kp T        &kp Y    &kp U  0&kp I      &kp O    &kp P     &kp BSPC
    &kp LSHFT  &kp A  &kp S  &kp D    &kp F     &kp G        &kp H    &kp J  0&kp K      &kp L    &kp SEMI  &kp SQT
    &kp LCTRL  &kp Z  &kp X  &kp C    &kp V     &kp B        &kp N    &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                            &lt LALT &kp SPACE &mo LWR      &tog RSE &kp RET &kp RGUI
+                            &lt LALT &kp SPACE &mo 1        &tog 2   &kp RET &kp RGUI
                         >;
                 };
 
