@@ -27,15 +27,15 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// | ESC   | HOME | PGUP | UP  | PGDN  | LBKT |-  -| RBKT |  7    |  8  |  9  |  +/=  | DEL |
-// | SHFT  | END  | LFT  | DWN | RGT   | LPAR |-  -| RPAR |  4    |  5  |  6  |  -/_  | GRAVE   |
-// | BTCLR | BT1  | BT2  | BT3  | BT4  | LBRC |-  -| RBRC |  1    |  2  |  3  |  .    | /?  |
-//                       | ALT | SPC   |      |-  -|      | ENT |  0  |
+// |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
+// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp ESC      &kp HOME     &kp PG_UP    &kp UP       &kp PG_DN    &kp LBKT        &kp RBKT &kp N7   &kp N8 &kp N9  &kp EQUAL &kp DEL
-   &kp LSHFT    &kp END      &kp LEFT     &kp DOWN     &kp RIGHT    &kp LPAR        &kp RPAR &kp N4   &kp N5 &kp N6  &kp MINUS &kp GRAVE
-   &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp LBRC        &kp RBRC &kp N1   &kp N2 &kp N3  &kp DOT   &kp FSLH
-                                          &kp LALT     &kp SPACE    &trans          &trans   &kp RET  &kp N0
+   &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5            &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+   &kp LSHFT  &trans       &trans       &trans       &trans       &trans            &trans   &trans   &trans &trans    &trans &trans
+                                        &kp LGUI     &trans       &kp SPACE         &kp RET &trans &kp RALT
                         >;
                 };
 
