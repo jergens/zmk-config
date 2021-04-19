@@ -32,14 +32,14 @@
 
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// | ESC   | PGUP | HOME | UP  | END   | LBKT |-  -| RBKT |  7  |  8  |  9  |  -/_  | GRAVE |
-// | SHFT  | PGDN | LFT  | DWN | RGT   | LPAR |-  -| RPAR |  4  |  5  |  6  |  +/=  | STAR  |
-// | LCTRL | BT1  | BT2  | BT3 | BTCLR | LBRC |-  -| RBRC |  1  |  2  |  3  |  .    | /?    |
-//                       | ALT | SPC   |      |-  -| DEL  | RET |  0  |
+// | ESC   | PGUP  | HOME | UP  | END | LBKT |-  -| RBKT |  7  |  8  |  9  |  -/_  | GRAVE |
+// | SHFT  | PGDN  | LFT  | DWN | RGT | LPAR |-  -| RPAR |  4  |  5  |  6  |  +/=  | STAR  |
+// | LCTRL | BTCLR | BT1  | BT2 | BT3 | LBRC |-  -| RBRC |  1  |  2  |  3  |  .    | /?    |
+//                        | ALT | SPC |      |-  -| DEL  | RET |  0  |
                         bindings = <
    &kp ESC      &kp PG_UP    &kp HOME     &kp UP       &kp END      &kp LBKT        &kp RBKT  &kp N7   &kp N8 &kp N9  &kp MINUS &kp GRAVE
    &kp LSHFT    &kp PG_DN    &kp LEFT     &kp DOWN     &kp RIGHT    &kp LPAR        &kp RPAR  &kp N4   &kp N5 &kp N6  &kp EQUAL &kp STAR
-   &kp LCTRL    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR   &kp LBRC        &kp RBRC  &kp N1   &kp N2 &kp N3  &kp DOT   &kp FSLH
+   &kp LCTRL    &bt BT_CLR   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp LBRC        &kp RBRC  &kp N1   &kp N2 &kp N3  &kp DOT   &kp FSLH
                                           &kp LALT     &kp SPACE    &trans          &kp DEL   &kp RET  &kp N0
                         >;
                 };
