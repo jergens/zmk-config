@@ -49,12 +49,12 @@
 // | TAB  |  X   |  Q  |  W  |  E  |  R  |-  -| GRAVE | HOME  | UP   | PGUP | PAUSE_BREAK |      |
 // | CTRL | SHFT |  A  |  S  |  D  |  F  |-  -| END   | LFT   | DWN  | RGT  | PGDN        | VOL+ |
 // | Z    |  1   |  2  |  3  |  4  |  5  |-  -| F5    |  F1   | F3   | F11  | F9          | VOL- |
-//                     | ALT | SPC |  V  |-  -| ESC   | RET   | MUTE |
+//                     | ALT | SPC |  V  |-  -| ESC   | RET   | F2   |
                         bindings = <
    &kp TAB   &kp X     &kp Q  &kp W    &kp E     &kp R       &kp GRAVE &kp HOME  &kp UP     &kp PG_UP &kp PAUSE_BREAK &trans
    &kp LCTRL &kp LSHFT &kp A  &kp S    &kp D     &kp F       &kp END   &kp LEFT  &kp DOWN   &kp RIGHT &kp PG_DN       &kp K_VOL_UP
    &kp Z     &kp N1    &kp N2 &kp N3   &kp N4    &kp N5      &kp F5    &kp F1    &kp F3     &kp F11   &kp F9          &kp K_VOL_DN
-                              &kp LALT &kp SPACE &kp V       &kp ESC   &kp RET   &kp K_MUTE
+                              &kp LALT &kp SPACE &kp V       &kp ESC   &kp RET   &kp F2
                         >;
                 };
         };
