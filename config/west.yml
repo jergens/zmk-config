@@ -3,8 +3,8 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   projects:
-    - name: petejohanson
-      remote: zmk
+    - name: zmk
+      remote: petejohanson
       revision: core/zephyr-3.4-update
       import: app/west.yml
   self:
